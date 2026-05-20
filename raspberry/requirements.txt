@@ -1,0 +1,14 @@
+# Dependències Python per al Monitor de Temperatura DS18B20
+# Instal·la amb: pip install -r requirements.txt
+
+# API REST per a l'app mòbil
+flask>=3.0.0
+
+# Opcional: millora de seguretat per a l'API
+flask-limiter>=3.5.0
+
+# Opcional: notificacions push (descomenteu si cal)
+# requests>=2.31.0
+
+# Nota: les biblioteques estàndard de Python (csv, json, os, threading, etc.)
+# NO cal instal·lar-les, ja vénen amb Python 3.

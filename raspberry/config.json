@@ -1,0 +1,41 @@
+{
+  "sensor": {
+    "interval_seconds": 30,
+    "resolution_bits": 12,
+    "simulate": false,
+    "simulate_min_temp": 18.0,
+    "simulate_max_temp": 28.0,
+    "alert_min_temp": 5.0,
+    "alert_max_temp": 35.0
+  },
+  "storage": {
+    "csv_path": "data/temperature_log.csv",
+    "max_csv_rows": 100000,
+    "rotate_csv_monthly": true
+  },
+  "github": {
+    "enabled": true,
+    "token": "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",
+    "username": "Sergitronix-jpg",
+    "repo": "Monitor-temperatura1",
+    "branch": "main",
+    "data_file_path": "web/data.json",
+    "auto_push": true,
+    "push_every_n_readings": 1
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_smtp": "smtp.gmail.com",
+    "email_port": 587,
+    "email_user": "sergio261106@gmail.com",
+    "email_password": "gbmu lznc ezig ozou",
+    "email_to": "sergio261106@gmail.com",
+    "alert_on_threshold": true
+  },
+  "api": {
+    "enabled": true,
+    "host": "0.0.0.0",
+    "port": 5000,
+    "secret_key": "temperatura1234"
+  }
+}
