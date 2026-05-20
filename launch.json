@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Iniciar Monitor de Temperatura",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/raspberry/sensor_reader.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "▶ Mode Simulació (sense sensor)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/raspberry/sensor_reader.py",
+      "args": ["--simulate"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "▶ Exportar Estadístiques",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/raspberry/export_stats.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

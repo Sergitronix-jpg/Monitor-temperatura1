@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.terminal.activateEnvironment": true,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.json": "json"
+  },
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true
+}
