@@ -1,0 +1,18 @@
+{
+  "generated_at": "2025-01-01T12:00:00",
+  "sensor": "DS18B20",
+  "location": "Raspberry Pi",
+  "current": {
+    "timestamp": 1735732800,
+    "iso_date": "2025-01-01T12:00:00",
+    "temperature_c": 22.5
+  },
+  "stats": {
+    "last_24h": { "count": 0, "min": 0, "max": 0, "avg": 0, "last": 0 },
+    "last_7d": { "count": 0, "min": 0, "max": 0, "avg": 0, "last": 0 },
+    "last_30d": { "count": 0, "min": 0, "max": 0, "avg": 0, "last": 0 }
+  },
+  "readings_24h": [],
+  "hourly_avg_30d": {},
+  "daily_summary": {}
+}
